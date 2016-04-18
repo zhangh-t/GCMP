@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GCMPModel", "..\src\GCMPModel\GCMPModel.vcxproj", "{413FF02C-2FF9-4C40-A85C-CA3CB77B7476}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GDBCompare", "..\src\GDBCompare\GDBCompare.vcxproj", "{5E3025D0-A992-4B00-9F7D-7FDBD664DE5E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GGDBExtend", "..\src\GGDBExtend\GGDBExtend.vcxproj", "{D7BBB07F-98CD-469A-AE34-5D125B338A9B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GCMPCopy", "..\src\GCMPCopy\GCMPCopy.vcxproj", "{36A701B8-D407-45F9-963D-A6AAA6561DA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{413FF02C-2FF9-4C40-A85C-CA3CB77B7476}.Debug|Win32.ActiveCfg = Debug|Win32
+		{413FF02C-2FF9-4C40-A85C-CA3CB77B7476}.Debug|Win32.Build.0 = Debug|Win32
+		{413FF02C-2FF9-4C40-A85C-CA3CB77B7476}.Release|Win32.ActiveCfg = Release|Win32
+		{413FF02C-2FF9-4C40-A85C-CA3CB77B7476}.Release|Win32.Build.0 = Release|Win32
+		{5E3025D0-A992-4B00-9F7D-7FDBD664DE5E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E3025D0-A992-4B00-9F7D-7FDBD664DE5E}.Debug|Win32.Build.0 = Debug|Win32
+		{5E3025D0-A992-4B00-9F7D-7FDBD664DE5E}.Release|Win32.ActiveCfg = Release|Win32
+		{5E3025D0-A992-4B00-9F7D-7FDBD664DE5E}.Release|Win32.Build.0 = Release|Win32
+		{D7BBB07F-98CD-469A-AE34-5D125B338A9B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D7BBB07F-98CD-469A-AE34-5D125B338A9B}.Debug|Win32.Build.0 = Debug|Win32
+		{D7BBB07F-98CD-469A-AE34-5D125B338A9B}.Release|Win32.ActiveCfg = Release|Win32
+		{D7BBB07F-98CD-469A-AE34-5D125B338A9B}.Release|Win32.Build.0 = Release|Win32
+		{36A701B8-D407-45F9-963D-A6AAA6561DA0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36A701B8-D407-45F9-963D-A6AAA6561DA0}.Debug|Win32.Build.0 = Debug|Win32
+		{36A701B8-D407-45F9-963D-A6AAA6561DA0}.Release|Win32.ActiveCfg = Release|Win32
+		{36A701B8-D407-45F9-963D-A6AAA6561DA0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

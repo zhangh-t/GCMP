@@ -1,0 +1,12 @@
+#ifndef GGDBEXTEND_GLOBAL_H
+#define GGDBEXTEND_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#ifdef GGDBEXTEND_LIB
+# define GGDBEXTEND_EXPORT Q_DECL_EXPORT
+#else
+# define GGDBEXTEND_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // GGDBEXTEND_GLOBAL_H
