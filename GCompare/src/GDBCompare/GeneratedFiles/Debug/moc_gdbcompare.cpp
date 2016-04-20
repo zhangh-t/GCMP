@@ -6,7 +6,7 @@
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "../../gdbcompare.h"
+#include "../../../../include/GDBCompare/Ui/gdbcompare.h"
 #include <QtCore/qbytearray.h>
 #include <QtCore/qmetatype.h>
 #if !defined(Q_MOC_OUTPUT_REVISION)
@@ -60,7 +60,7 @@ void GDBCompare::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
 }
 
 const QMetaObject GDBCompare::staticMetaObject = {
-    { &QMainWindow::staticMetaObject, qt_meta_stringdata_GDBCompare.data,
+    { &GCMPFramelessWidget::staticMetaObject, qt_meta_stringdata_GDBCompare.data,
       qt_meta_data_GDBCompare,  qt_static_metacall, 0, 0}
 };
 
@@ -75,12 +75,12 @@ void *GDBCompare::qt_metacast(const char *_clname)
     if (!_clname) return 0;
     if (!strcmp(_clname, qt_meta_stringdata_GDBCompare.stringdata))
         return static_cast<void*>(const_cast< GDBCompare*>(this));
-    return QMainWindow::qt_metacast(_clname);
+    return GCMPFramelessWidget::qt_metacast(_clname);
 }
 
 int GDBCompare::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = QMainWindow::qt_metacall(_c, _id, _a);
+    _id = GCMPFramelessWidget::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     return _id;

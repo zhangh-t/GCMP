@@ -1,0 +1,47 @@
+﻿生成启动时间为 2016/4/20 13:48:25。
+     1>项目“D:\zhangh-t\GCMP\GCMP\GCompare\src\GGDBExtend\GGDBExtend.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\GGDBExtend.lastbuildstate”。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+       InitializeBuildStatus:
+         正在创建“Debug\GGDBExtend.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.1.1\5.1.1\msvc2010\\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.1.1\5.1.1\msvc2010\\include\QtCore /I"D:\zhangh-t\GCMP\GCMP\GCompare\sln\..\include" /I..\..\..\..\Externals\GBIM\include /I..\..\..\..\Externals\GlodonResource\Glodon\include /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D GGDBEXTEND_LIB /D NOMINMAX /D _WINDLL /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp GCMPDBExtend.cpp GCMPGGDBResult.cpp GGDBExtendCommon.cpp
+         {{xgTaskID=00000010}}
+         dllmain.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000012}}
+         GCMPGGDBResult.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000011}}
+         GCMPDBExtend.cpp
+         {{xgTaskID=00000000}}
+         {{xgTaskID=00000013}}
+         GGDBExtendCommon.cpp
+     1>d:\zhangh-t\gcmp\externals\glodonresource\glodon\include\gld\GLDGlobal.h(16): warning C4005: “assert”: 宏重定义
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\assert.h(34) : 参见“assert”的前一个定义
+     1>d:\zhangh-t\gcmp\gcmp\gcompare\src\ggdbextend\ggdbextendcommon.cpp(209): warning C4715: “getTableState”: 不是所有的控件路径都返回值
+     1>d:\zhangh-t\gcmp\gcmp\gcompare\src\ggdbextend\ggdbextendcommon.cpp(236): warning C4715: “searchTargetRecord”: 不是所有的控件路径都返回值
+         {{xgTaskID=00000000}}
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\zhangh-t\GCMP\GCMP\GCompare\sln\..\..\bin\GGDBExtendd.dll" /NOLOGO /LIBPATH:C:\Qt\Qt5.1.1\5.1.1\msvc2010\\lib /LIBPATH:"D:\zhangh-t\GCMP\GCMP\GCompare\sln\..\..\lib\Win32" qtmaind.lib Qt5Cored.lib Commond.lib MDCommond.lib Geometryd.lib GGDBd.lib DBOperationsd.lib mdbd.lib mdcached.lib mdcmdlogd.lib mdcommond.lib mdscriptd.lib GCMPModeld.lib GLDCommond.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GGDBExtendd.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\zhangh-t\GCMP\GCMP\bin\GGDBExtendd.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\zhangh-t\GCMP\GCMP\GCompare\sln\..\..\Lib\Win32\GGDBExtendd.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\GCMPDBExtend.obj
+         Debug\GCMPGGDBResult.obj
+         Debug\GGDBExtendCommon.obj
+         {{xgTaskID=00000021}}
+            正在创建库 D:\zhangh-t\GCMP\GCMP\GCompare\sln\..\..\Lib\Win32\GGDBExtendd.lib 和对象 D:\zhangh-t\GCMP\GCMP\GCompare\sln\..\..\Lib\Win32\GGDBExtendd.exp
+         {{xgTaskID=00000000}}
+         GGDBExtend.vcxproj -> D:\zhangh-t\GCMP\GCMP\GCompare\sln\..\..\bin\GGDBExtendd.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\zhangh-t\GCMP\GCMP\GCompare\sln\..\..\bin\GGDBExtendd.dll;#2" /manifest Debug\GGDBExtendd.dll.intermediate.manifest
+         {{xgTaskID=00000022}}
+         
+         {{xgTaskID=00000000}}
+       FinalizeBuildStatus:
+         正在删除文件“Debug\GGDBExtend.unsuccessfulbuild”。
+         正在对“Debug\GGDBExtend.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\zhangh-t\GCMP\GCMP\GCompare\src\GGDBExtend\GGDBExtend.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.43

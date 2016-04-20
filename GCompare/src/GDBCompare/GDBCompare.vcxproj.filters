@@ -38,8 +38,8 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gdbcompare.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="GeneratedFiles\qrc_gdbcompare.cpp">
+      <Filter>Generated Files</Filter>
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Debug\moc_gdbcompare.cpp">
       <Filter>Generated Files\Debug</Filter>
@@ -47,24 +47,36 @@
     <ClCompile Include="GeneratedFiles\Release\moc_gdbcompare.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\qrc_gdbcompare.cpp">
-      <Filter>Generated Files</Filter>
+    <ClCompile Include="Ui\gdbcompare.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\gcmpframelesswidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_gcmpframelesswidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_gcmpframelesswidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Ui\GCMPButton.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="gdbcompare.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
-    <CustomBuild Include="gdbcompare.ui">
-      <Filter>Form Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="gdbcompare.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
+    <CustomBuild Include="..\..\include\GDBCompare\Ui\gdbcompare.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\include\GDBCompare\Ui\gcmpframelesswidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GeneratedFiles\ui_gdbcompare.h">
-      <Filter>Generated Files</Filter>
+    <ClInclude Include="..\..\include\GDBCompare\Ui\GCMPButton.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

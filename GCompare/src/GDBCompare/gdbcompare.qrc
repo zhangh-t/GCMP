@@ -1,4 +1,7 @@
 <RCC>
     <qresource prefix="GDBCompare">
+        <file alias ="close">icons/close.png</file>
+        <file alias ="maxmize">icons/maxmize.png</file>
+        <file alias ="minimize">icons/minimize.png</file>
     </qresource>
 </RCC>
