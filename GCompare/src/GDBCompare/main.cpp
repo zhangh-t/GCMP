@@ -1,10 +1,11 @@
-#include "GDBCompare/Ui/gdbcompare.h"
 #include <QtWidgets/QApplication>
+#include "GCMPUI/GCMPUiCommon.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    GDBCompare w("GGDB Comparer", 0);
-    w.show();
-    return a.exec();
+    QWidget* pMainWidget = createMainFrame();
+    pMainWidget->show();
+    int nRet = a.exec();
+    return nRet;
 }
